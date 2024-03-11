@@ -27,7 +27,7 @@
     from {
         transform: scale(0.92);
         filter: blur(0);
-        opacity: 0.6;
+        opacity: 0.5;
     }
     to {
         filter: blur(10px);
@@ -90,11 +90,9 @@ button {
 
 
 .login__form{
-    
-    width: 25%;
+    width: 400px; /* Set a fixed width value */
     position: relative;
     padding-top: 25vh;
-
 }
 
 .login__box{
@@ -104,7 +102,7 @@ button {
     padding-inline: 0.75rem;
     border-radius: 4rem;
     margin-bottom: 1rem;
-    backdrop-filter: blur(16px);
+    backdrop-filter: blur(20px);
     animation: fadeIn 2s ease-in-out;
     display: grid;
     
@@ -126,27 +124,4 @@ button {
     position: relative;
 }
 
-
-
-/* login button*/
-.login__button{
-    animation: fadeIn 2s ease-in-out;
-    padding: 0.5rem 1rem;
-    background-color: hsla(150, 96%, 28%, 0.529);
-    color: hsla(0, 0%, 100%, 0.8);
-    border-radius: 4rem;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    align-items: center;   
-}
-
-.login__button:hover {
-    background-color: hsla(124, 84%, 45%, 0.8);
-
-}
-
-.login__button:active {
-    background-color: hsla(124, 23%, 23%, 0.8);
-    animation: bgAnimation 0.3s ease-in-out;
-}
 
